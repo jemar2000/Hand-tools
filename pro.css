@@ -1,0 +1,112 @@
+/* Sidebar Styles */
+.sidebar {
+   width: 20px;
+   height: 10%;
+   background-color: #333;
+   color: #705656;
+   padding: 1px;
+   
+   position: fixed;
+   top: 10%;
+   left: 10%;
+  
+}
+
+.sidebar .message {
+   background-color: #4CAF50;
+   color: #fff;
+   padding: 10px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sidebar .message i {
+   cursor: pointer;
+}
+
+/* Header Styles */
+.header {
+   padding-left: 250px; /* Adjust based on the sidebar width */
+}
+
+.flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   text-decoration: none;
+   color: #000;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.logo span {
+   color: #333;
+}
+
+.navbar {
+   display: flex;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: #333;
+   margin: 0 15px;
+   font-size: 1rem;
+   font-weight: bold;
+}
+
+.icons {
+   display: flex;
+   align-items: center;
+}
+
+.icons i {
+   cursor: pointer;
+   margin-left: 10px;
+   font-size: 1.5rem;
+}
+
+/* Profile Styles */
+.profile {
+   display: flex;
+   align-items: center;
+   margin-top: 20px; /* Adjust as needed */
+}
+
+.profile p {
+   margin-right: 10px;
+}
+
+.btn {
+   padding: 5px 10px;
+   background-color: #333;
+   color: #fff;
+   text-decoration: none;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.flex-btn {
+   display: flex;
+}
+
+.option-btn,
+.delete-btn {
+   padding: 5px 10px;
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.option-btn {
+   background-color: #333;
+}
+
+.delete-btn {
+   background-color: #ff0000;
+}
